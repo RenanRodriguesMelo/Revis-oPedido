@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #7b8cca, #94a5d7, #adbde5, #c6d6f2, #dfeeff);
+    height: 100vh;
+    width: 100%;
+    margin-top: 40px;
+}
+
+section.Card {
+    height: 510px;
+    width: 270px;
+    background-color:#fff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.25);
+}
+
+.ImgBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+    background-image: url(assets/listen.jpg);
+    background-size: cover;
+    background-position: center;
+}
